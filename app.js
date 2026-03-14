@@ -267,8 +267,8 @@ const tomorrowContainer = document.querySelector(
   ".tomorrow-participant-container",
 );
 
-const tomorrowName = fromLogAleatory[new Date().getDay() + 1][1];
-const day = fromLogAleatory[new Date().getDay() + 1][2];
+const tomorrowName = fromLogAleatory[new Date().getDay()][1];
+const day = fromLogAleatory[new Date().getDay()][2];
 const participantTomorrow = document.createElement("p");
 participantTomorrow.className = "participant-tomorrow";
 participantTomorrow.textContent = `${tomorrowName}, tomorrow is your Turn, ${day}`;
