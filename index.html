@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="navbar">
+          <div class="left">
+            <ul>
+              <li><a href="#today-container">Today</a></li>
+              <li>
+                <a
+                  href="https://www.youtube.com/watch?v=RKQUblO-iCs&list=RDRKQUblO-iCs&start_radio=1"
+                  target="_blank"
+                  >Special Song</a
+                >
+              </li>
+              <li><a href="#aleatory-message">Aleatory message</a></li>
+            </ul>
+          </div>
+
+          <div class="right">
+            <ul>
+              <li>
+                <a
+                  href="https://store.steampowered.com/app/1671210/DELTARUNE/"
+                  target="_blank"
+                  >Surprise</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://store.steampowered.com/app/391540/Undertale/"
+                  target="_blank"
+                  >Surprise 2</a
+                >
+              </li>
+              <li id="song">
+                Start Music
+                <audio id="music">
+                  <source src="./src/music/Music.mp3" />
+                </audio>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <h2 class="current-day"></h2>
+        <p class="description-day">This page was made with love for friends, strangers, and everyone in between. Its purpose is simple: to share a warm greeting. I hope your words come with good intentions. Write your message and grow with us. </p>
+        <div class="day-container">
+          <h1>PARTICIPANT TODAY</h1>
+          <p class="description">
+            Today the great! Participant for this Beautifull day is....!!!!!!
+          </p>
+        </div>
+        <!-- TODAY CONTAINER -->
+
+        <div class="today-container" id="today-container">
+          <div class="profile-container">
+            <h1 class="today-name"></h1>
+            <img class="imagen-profile" />
+          </div>
+          <p class="special-greeting"></p>
+        </div>
+        <!--ALEATORY GREETING-->
+        <h1>THE PARTICIPANTS</h1>
+        <p class="description-Participantes">
+          The great! participants, from normal people to Ednick, they are our participants.
+        </p>
+
+        <div class="greeting-container" id="aleatory-message">
+          <div class="integrants"></div>
+          <div class="aleatory-greetings">
+            <p class="aleatory-message"></p>
+          </div>
+        </div>
+        <div class="participants-container">
+          <div class="participants-order">
+            <h1>ORDER FOR PARTICIPANTS</h1>
+          </div>
+          <div class="tomorrow-participant-container">
+            <h1>Tomorrow it's the BIG SHOT's turn!</h1>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
