@@ -130,8 +130,8 @@ if (songButton && music) {
 //MESSAGES FOR TODAY
 const dayForMessage = new Date().getDay();
 
-const manualIntegrant = weekMessages[dayForMessage][1];
-const manualMessage = weekMessages[dayForMessage][3];
+const manualIntegrant = weekMessages[dayForMessage - 1][1];
+const manualMessage = weekMessages[dayForMessage - 1][3];
 
 const days = [
   "Sunday",
@@ -178,7 +178,7 @@ const todaySpecial = document.querySelector(".special-greeting");
 currentDay.textContent = dayToday;
 todayIntegrant.textContent = manualIntegrant;
 todaySpecial.textContent = manualMessage;
-imageToday.src = weekMessages[dayForMessage][2];
+imageToday.src = weekMessages[dayForMessage - 1][2];
 
 //ALEATORY MESSAGE
 //Integrants
@@ -243,7 +243,7 @@ setInterval(() => {
 const orderForParticipants = document.querySelector(".participants-order");
 const fromLogAleatory = [
   [1, "Alvaro Villavicencio", "Monday"],
-  [2, "Camilo", "Thusday"],
+  [2, "Camilo", "Tuesday"],
   [3, "Daniel Barrios", "Wednesday"],
   [4, "David Gemio", "Thursday"],
   [5, "Diego Irala", "Friday"],
@@ -273,3 +273,17 @@ const participantTomorrow = document.createElement("p");
 participantTomorrow.className = "participant-tomorrow";
 participantTomorrow.textContent = `${tomorrowName}, tomorrow is your Turn, ${day}`;
 tomorrowContainer.appendChild(participantTomorrow);
+
+//Responsive navbar
+const buttonResponsive = document.querySelector(".button-responsive");
+const navbar = document.querySelector(".navbar");
+const lines = document.querySelectorAll(".line");
+
+buttonResponsive.addEventListener("click", () => {
+  navbar.classList.toggle("active");
+  buttonResponsive.classList.toggle("active");
+
+  lines.forEach((line) => {
+    line.classList.toggle("active");
+  });
+});
