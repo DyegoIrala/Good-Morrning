@@ -109,8 +109,20 @@ const weekMessages = [
     "Buenos dias Gentita",
     "Thursday",
   ],
-  [6, "Javier Iquize", integrants[7].profileImage, "Dota?", "Friday"],
-  [7, "Javier Exeni", integrants[3].profileImage, "VIVA LA VIDA", "Saturday"],
+  [
+    6,
+    "Diego Irala",
+    integrants[0].profileImage,
+    "Buenos dias gentita que les vaya muy bien en su triatlon, es un beun dia para morir de felicidad! todas las buenas vibras <3",
+    "Friday",
+  ],
+  [
+    7,
+    "Diego Irala",
+    integrants[0].profileImage,
+    "Buenos dias gentita que les vaya muy bien en su triatlon, es un beun dia para morir de felicidad! todas las buenas vibras <3",
+    "Friday",
+  ],
 ];
 
 //NavBar
@@ -247,8 +259,8 @@ const fromLogAleatory = [
   [3, "Daniel Barrios", "Wednesday"],
   [4, "David Gemio", "Thursday"],
   [5, "Diego Irala", "Friday"],
-  [6, "Javier Iquize", "Saturday"],
-  [7, "Javier Exeni", "Sunday"],
+  [6, "Diego Irala", "Saturday"],
+  [7, "Diego Irala", "Sunday"],
   [8, "ACTUALIZAR LISTA", "NO DAY"],
 ];
 
