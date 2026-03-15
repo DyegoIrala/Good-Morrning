@@ -120,7 +120,7 @@ const weekMessages = [
     7,
     "Diego Irala",
     integrants[0].profileImage,
-    "Buenos dias gentita que les vaya muy bien en su triatlon, es un beun dia para morir de felicidad! todas las buenas vibras <3",
+    "Buenos dias gentita que les vaya muy bien en su triatlon, es un beun dia para morir de felicidad! todas las buenas vibras <3 Amén",
     "Friday",
   ],
 ];
