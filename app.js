@@ -142,8 +142,17 @@ if (songButton && music) {
 //MESSAGES FOR TODAY
 const dayForMessage = new Date().getDay();
 
-const manualIntegrant = weekMessages[dayForMessage - 1][1];
-const manualMessage = weekMessages[dayForMessage - 1][3];
+const variableDay = () => {
+  if (dayForMessage === 0) {
+    return 6;
+  } else {
+    return dayForMessage - 1;
+  }
+};
+console.log(variableDay);
+
+const manualIntegrant = weekMessages[variableDay()][1];
+const manualMessage = weekMessages[variableDay()][3];
 
 const days = [
   "Sunday",
@@ -190,7 +199,7 @@ const todaySpecial = document.querySelector(".special-greeting");
 currentDay.textContent = dayToday;
 todayIntegrant.textContent = manualIntegrant;
 todaySpecial.textContent = manualMessage;
-imageToday.src = weekMessages[dayForMessage - 1][2];
+imageToday.src = weekMessages[variableDay()][2];
 
 //ALEATORY MESSAGE
 //Integrants
