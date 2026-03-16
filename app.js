@@ -263,13 +263,13 @@ setInterval(() => {
 // Participants Order manual code for participants 1 time per Week
 const orderForParticipants = document.querySelector(".participants-order");
 const fromLogAleatory = [
-  [1, "Alvaro Villavicencio", "Monday"],
-  [2, "Camilo", "Tuesday"],
-  [3, "Daniel Barrios", "Wednesday"],
-  [4, "David Gemio", "Thursday"],
-  [5, "Diego Irala", "Friday"],
-  [6, "Diego Irala", "Saturday"],
-  [7, "Diego Irala", "Sunday"],
+  [1, "Edgar loayza", "Monday"],
+  [2, "Nicolas Fernandez", "Tuesday"],
+  [3, "Diego Irala", "Wednesday"],
+  [4, "Daniel Barrios", "Thursday"],
+  [5, "Javier Iquize", "Friday"],
+  [6, "Javier Exeni", "Saturday"],
+  [7, "David Gemio", "Sunday"],
   [8, "ACTUALIZAR LISTA", "NO DAY"],
 ];
 
