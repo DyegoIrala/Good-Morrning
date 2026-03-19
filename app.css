@@ -38,6 +38,10 @@ h1 {
   align-items: center;
 }
 
+.navbar .left {
+  width: 50%;
+}
+
 .navbar .left ul,
 .navbar .right ul {
   width: 100%;
@@ -97,18 +101,25 @@ h1 {
   justify-content: space-around;
   align-items: center;
   min-height: 30vh;
+  box-shadow: 0px 8px 10px rgba(230, 229, 229, 0.5);
+}
+
+.today-container h1 {
+  margin-bottom: 30px;
 }
 
 .current-day {
   font-size: 70px;
 }
 
-.imagen-profile {
+.today-container .imagen-profile {
   width: 260px;
   height: 260px;
   object-fit: cover;
   border-radius: 50%;
   transition: filter 0.3s ease;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .imagen-profile:hover {
@@ -137,6 +148,8 @@ h1 {
 .card-container-integrant {
   max-width: 500px;
   margin: 0 20px;
+  box-shadow: 0px 8px 10px rgba(230, 229, 229, 0.5);
+  margin-bottom: 60px;
 }
 
 .integrants {
@@ -150,12 +163,19 @@ h1 {
 
 .aleatory-greetings {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-content: space-around;
+  align-content: center;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
+  min-width: 400px;
+  min-height: 250px;
+}
+.aleatory-meesage {
+  margin: 0 auto;
 }
 
 .profile-random-img {
-  margin: 0 auto;
+  margin: 30px 0 0 0;
 }
 
 .integrants ul {
@@ -188,6 +208,7 @@ h1 {
 .aleatory-meesage p {
   text-align: center;
   margin: 0 auto;
+  display: inline-block;
 }
 
 .profile-random-img {
@@ -335,6 +356,12 @@ h1 {
     align-items: center;
     margin-bottom: 60px;
     text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(230, 229, 229, 0.5);
+  }
+
+  .today-container .imagen-profile {
+    box-shadow: 0px 4px 10px rgba(230, 229, 229, 0.5);
   }
   .special-greeting {
     font-size: 30px;
