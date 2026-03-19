@@ -103,32 +103,20 @@ const weekMessages = [
   ],
   [
     4,
-    "David Gemio",
-    integrants[5].profileImage,
-    "Saluda pe soy manito",
+    "Daniel Barrios",
+    integrants[6].profileImage,
+    "No hay saludo",
     "Wednesday",
   ],
-  [
-    5,
-    "Diego Irala",
-    integrants[0].profileImage,
-    "Buenos dias Gentita",
-    "Thursday",
-  ],
+  [5, "Javiame", integrants[7].profileImage, "", "Thursday"],
   [
     6,
-    "Diego Irala",
-    integrants[0].profileImage,
-    "Buenos dias gentita que les vaya muy bien en su triatlon, es un beun dia para morir de felicidad! todas las buenas vibras <3",
+    "Javier,  le toco Sabado que gozu",
+    integrants[3].profileImage,
+    "",
     "Friday",
   ],
-  [
-    7,
-    "Diego Irala",
-    integrants[0].profileImage,
-    "Buenos dias gentita que les vaya muy bien en su triatlon, es un beun dia para morir de felicidad! todas las buenas vibras <3 Amén",
-    "Friday",
-  ],
+  [7, "David Gemio", integrants[0].profileImage, "", "Friday"],
 ];
 
 //NavBar
