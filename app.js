@@ -108,7 +108,13 @@ const weekMessages = [
     "No hay saludo",
     "Wednesday",
   ],
-  [5, "Javiame", integrants[7].profileImage, "", "Thursday"],
+  [
+    5,
+    "Javiame",
+    integrants[7].profileImage,
+    " ¡Buenos días equipo! ☀️🏃‍♂️Hoy es otro día para sumar kilómetros, disciplina y mente fuerte. No importa si hoy cuesta más que ayer, lo importante es no detenerse. Cada paso nos acerca a nuestra mejor versión.¡Nos vemos en la ruta! 💪🔥",
+    "Thursday",
+  ],
   [
     6,
     "Javier,  le toco Sabado que gozu",
