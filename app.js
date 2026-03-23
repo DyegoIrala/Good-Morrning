@@ -1,7 +1,13 @@
 //Messages
 const totalMessages = {
   Camilo: ["Hoy es un dia bello para Programar", "Mensajito nuevo"],
-  Diego: ["Hoy es un dia lindo para ver One Piece", "Mensajito nuevo"],
+  Diego: [
+    "Buenos dias gentita que hoy sea un gran dia, que la vida les de salud y que en el dia perdonen a todos, nadie tiene enemigos <3",
+    "Mensajito nuevo",
+  ],
+  Enriqeu: [
+    "¡Buenos días equipo! ☀️🏃‍♂️Hoy es otro día para sumar kilómetros, disciplina y mente fuerte. No importa si hoy cuesta más que ayer, lo importante es no detenerse. Cada paso nos acerca a nuestra mejor versión.¡Nos vemos en la ruta! 💪🔥",
+  ],
 };
 
 //This is the integrants
@@ -88,35 +94,17 @@ const integrants = [
 const weekMessages = [
   [
     1,
-    "Alvaro Villavicencio",
+    "Por esta Vez Camilo y Villa",
     integrants[1].profileImage,
-    "Mensaje de Villa",
-    "Sunday",
+    "Buenos dias gentita, un nuevo inicio de semana qie sirva de hito para medir el progreso de sus metas y...… recuperar el ánimo y empezar de la mejor forma la semana, no olviden comer y dormir de manera óptima para dar el máximo esfuerzo. ",
+    "Monday",
   ],
-  [2, "Camilo", integrants[5].profileImage, "Camilo saluda", "Monday"],
-  [
-    3,
-    "Diego Miguel Irala Barrios",
-    integrants[0].profileImage,
-    "Buenos dias gentita que hoy sea un gran dia, que la vida les de salud y que en el dia perdonen a todos, nadie tiene enemigos <3",
-    "Tuesday",
-  ],
-  [
-    4,
-    "Daniel Barrios",
-    integrants[6].profileImage,
-    "No hay saludo",
-    "Wednesday",
-  ],
-  [5, "Javiame", integrants[7].profileImage, " ", "Thursday"],
-  [
-    6,
-    "Javier,  le toco Sabado que gozu",
-    integrants[3].profileImage,
-    "¡Buenos días equipo! ☀️🏃‍♂️Hoy es otro día para sumar kilómetros, disciplina y mente fuerte. No importa si hoy cuesta más que ayer, lo importante es no detenerse. Cada paso nos acerca a nuestra mejor versión.¡Nos vemos en la ruta! 💪🔥",
-    "Friday",
-  ],
-  [7, "David Gemio", integrants[0].profileImage, "", "Friday"],
+  [2, "David gemio", integrants[4].profileImage, "", "Tuesday"],
+  [3, "Javier Iquize", integrants[7].profileImage, "", "Wednesday"],
+  [4, "Diego Irala", integrants[0].profileImage, "No hay saludo", "Thursday"],
+  [5, "Javier Exeni", integrants[3].profileImage, " ", "Friday"],
+  [6, "Nicolas Ednick", integrants[8].profileImage, "", "Saturday"],
+  [7, "Daniel Barrios", integrants[6].profileImage, "", "Sunday"],
 ];
 
 //NavBar
@@ -257,13 +245,13 @@ setInterval(() => {
 // Participants Order manual code for participants 1 time per Week
 const orderForParticipants = document.querySelector(".participants-order");
 const fromLogAleatory = [
-  [1, "Edgar loayza", "Monday"],
-  [2, "Nicolas Fernandez", "Tuesday"],
-  [3, "Diego Irala", "Wednesday"],
-  [4, "Daniel Barrios", "Thursday"],
-  [5, "Javier Iquize", "Friday"],
-  [6, "Javier Exeni", "Saturday"],
-  [7, "David Gemio", "Sunday"],
+  [1, "Camilo y Villa", "Monday"],
+  [2, "David Gemio", "Tuesday"],
+  [3, "Javier Iquize", "Wednesday"],
+  [4, "Diego Irala", "Thursday"],
+  [5, "Javier Exeni", "Friday"],
+  [6, "Nicolas Ednick", "Saturday"],
+  [7, "Daniel Barrios", "Sunday"],
   [8, "ACTUALIZAR LISTA", "NO DAY"],
 ];
 
