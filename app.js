@@ -91,12 +91,12 @@ const integrants = [
   },
   {
     id: 10,
-    name: "Diego Gonzales(Odig)",
+    name: "Diego Guzman(Odig)",
     password: "Astaaa",
     messages: [""],
-    profileImage: "img/Odig.jpg",
+    profileImage: "img/Odig.png",
     description:
-      "Referente de paz y felicidad, gran persona, ingeniero Senior, Vio One Piece, nada mas que decir <3",
+      "Ing. de Sonido, las preguntitas no son una opcion, Ing. de software en proceso, le gusta la Chamba.... no le gusta las therian.. aun, \n Estuvo en argentina, consejero cripto",
   },
 ];
 
@@ -122,7 +122,13 @@ const weekMessages = [
     "Buenos días ☀️Que Dios fortalezca tu mente, tu cuerpo y tu espíritu en este nuevo día. Que cada paso que des esté guiado con propósito, que no te falte la fuerza para seguir adelante y que la suerte esté siempre de tu lado. \nHoy es una nueva oportunidad para crecer, mejorar y acercarte a todo lo que quieres lograr. Confía, persiste y avanza… lo mejor aún está por venir. 🙏✨",
     "Wednesday",
   ],
-  [4, "Diego Irala", integrants[0].profileImage, "No hay saludo", "Thursday"],
+  [
+    4,
+    "Diego Gonzales",
+    integrants[9].profileImage,
+    "No hay saludo",
+    "Thursday",
+  ],
   [5, "Javier Exeni", integrants[3].profileImage, " ", "Friday"],
   [6, "Nicolas Ednick", integrants[8].profileImage, "", "Saturday"],
   [7, "Daniel Barrios", integrants[6].profileImage, "", "Sunday"],
@@ -269,7 +275,7 @@ const fromLogAleatory = [
   [1, "Camilo y Villa", "Monday"],
   [2, "David Gemio", "Tuesday"],
   [3, "Javier Iquize", "Wednesday"],
-  [4, "Diego Irala", "Thursday"],
+  [4, "Diego Guzman", "Thursday"],
   [5, "Javier Exeni", "Friday"],
   [6, "Nicolas Ednick", "Saturday"],
   [7, "Daniel Barrios", "Sunday"],
