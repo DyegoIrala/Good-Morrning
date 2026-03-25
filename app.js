@@ -89,6 +89,15 @@ const integrants = [
     description:
       "Referente de paz y felicidad, gran persona, ingeniero Senior, Vio One Piece, nada mas que decir <3",
   },
+  {
+    id: 10,
+    name: "Diego Gonzales(Odig)",
+    password: "Astaaa",
+    messages: [""],
+    profileImage: "img/Odig.jpg",
+    description:
+      "Referente de paz y felicidad, gran persona, ingeniero Senior, Vio One Piece, nada mas que decir <3",
+  },
 ];
 
 const weekMessages = [
@@ -106,7 +115,13 @@ const weekMessages = [
     "Buenos dias ,le sirve a Javier Enrique",
     "Tuesday",
   ],
-  [3, "Javier Iquize", integrants[7].profileImage, "", "Wednesday"],
+  [
+    3,
+    "Javier Iquize",
+    integrants[7].profileImage,
+    "Buenos días ☀️Que Dios fortalezca tu mente, tu cuerpo y tu espíritu en este nuevo día. Que cada paso que des esté guiado con propósito, que no te falte la fuerza para seguir adelante y que la suerte esté siempre de tu lado. \nHoy es una nueva oportunidad para crecer, mejorar y acercarte a todo lo que quieres lograr. Confía, persiste y avanza… lo mejor aún está por venir. 🙏✨",
+    "Wednesday",
+  ],
   [4, "Diego Irala", integrants[0].profileImage, "No hay saludo", "Thursday"],
   [5, "Javier Exeni", integrants[3].profileImage, " ", "Friday"],
   [6, "Nicolas Ednick", integrants[8].profileImage, "", "Saturday"],
