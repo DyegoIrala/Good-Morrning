@@ -1,13 +1,27 @@
 //Messages
 const totalMessages = {
-  Camilo: ["Hoy es un dia bello para Programar", "Mensajito nuevo"],
+  Camilo: [
+    "Buenos dias gentita, un nuevo inicio de semana qie sirva de hito para medir el progreso de sus metas y...… recuperar el ánimo y empezar de la mejor forma la semana, no olviden comer y dormir de manera óptima para dar el máximo esfuerzo. ",
+  ],
   Diego: [
     "Buenos dias gentita que hoy sea un gran dia, que la vida les de salud y que en el dia perdonen a todos, nadie tiene enemigos <3",
     "Mensajito nuevo",
   ],
-  Enriqeu: [
+  Enrique: [
     "¡Buenos días equipo! ☀️🏃‍♂️Hoy es otro día para sumar kilómetros, disciplina y mente fuerte. No importa si hoy cuesta más que ayer, lo importante es no detenerse. Cada paso nos acerca a nuestra mejor versión.¡Nos vemos en la ruta! 💪🔥",
   ],
+  Villa: [
+    "Buenos dias gentita, un nuevo inicio de semana qie sirva de hito para medir el progreso de sus metas y...… recuperar el ánimo y empezar de la mejor forma la semana, no olviden comer y dormir de manera óptima para dar el máximo esfuerzo. ",
+    "Monday",
+  ],
+  Ednick: [
+    "Buenos días ☀️Que Dios fortalezca tu mente, tu cuerpo y tu espíritu en este nuevo día. Que cada paso que des esté guiado con propósito, que no te falte la fuerza para seguir adelante y que la suerte esté siempre de tu lado. \nHoy es una nueva oportunidad para crecer, mejorar y acercarte a todo lo que quieres lograr. Confía, persiste y avanza… lo mejor aún está por venir. 🙏✨",
+  ],
+  Odig: [""],
+  Edgar: ["Soy Fresco"],
+  David: ["aaaA"],
+  Danfer: ["soy Danfer"],
+  Javiame: ["soy 10k mmr"],
 };
 
 //This is the integrants
@@ -16,7 +30,7 @@ const integrants = [
     id: 1,
     name: "Diego Irala",
     password: "DIRALA",
-    messages: [""],
+    messages: totalMessages.Diego,
     profileImage: "img/Diego.jpg",
     description: "Creador de la WEB, Ing. Sistemas, Senior Fronted.",
   },
@@ -24,7 +38,7 @@ const integrants = [
     id: 2,
     name: "Camilo",
     password: "Astaaa",
-    messages: [""],
+    messages: totalMessages.Camilo,
     profileImage: "img/Camilo.jpg",
     description:
       "Ingeniero Casado, el primero del grupo, gozu en correr, no sabe Cloud",
@@ -33,7 +47,7 @@ const integrants = [
     id: 3,
     name: "Edgar Loayza",
     password: "Astaaa",
-    messages: [""],
+    messages: totalMessages.Edgar,
     profileImage: "img/Edgar.jpg",
     description:
       "Le gusta columpiarse, Ingeniero Industrial de amplio recorrido, amante de las bicicletas.",
@@ -42,7 +56,7 @@ const integrants = [
     id: 4,
     name: "Javier Exeni",
     password: "Astaaa",
-    messages: [""],
+    messages: totalMessages.Enrique,
     profileImage: "img/Javicho.jpeg",
     description:
       "Gran Persona cuando quiere, y cuando no quiere tambien, Ing. en Sistemas, Senior. Javpincho",
@@ -51,7 +65,7 @@ const integrants = [
     id: 5,
     name: "David Gemio",
     password: "Astaaa",
-    messages: ["Buenos dias gentita", "Nuevos"],
+    messages: totalMessages.David,
     profileImage: "img/David.jpg",
     description: "Ing. en Datos, le gusta emputarse, extraña jugar Counter",
   },
@@ -59,7 +73,7 @@ const integrants = [
     id: 6,
     name: "Alvaro Villavicencio",
     password: "Astaaa",
-    messages: [""],
+    messages: totalMessages.Villa,
     profileImage: "img/Villa.jpg",
     description:
       "Ingeniero, filantropo, Deportista, Dotero, Fortnitero, cada faceta es una personalidad.",
@@ -68,7 +82,7 @@ const integrants = [
     id: 7,
     name: "Daniel Barrios",
     password: "Astaaa",
-    messages: [""],
+    messages: totalMessages.Danfer,
     profileImage: "img/Danfer.jpg",
     description: "Hey Thorfin, gozu, tiene su fabrica. Ing. Industrial",
   },
@@ -76,7 +90,7 @@ const integrants = [
     id: 8,
     name: "Javier Iquize",
     password: "Astaaa",
-    messages: [""],
+    messages: totalMessages.Javiame,
     profileImage: "img/Javiame.jpeg",
     description: "10k mmr, referencia sexual",
   },
@@ -84,7 +98,7 @@ const integrants = [
     id: 9,
     name: "Nicolas Fernández (Ednick) ",
     password: "Astaaa",
-    messages: [""],
+    messages: totalMessages.Ednick,
     profileImage: "img/Ednick.jpg",
     description:
       "Referente de paz y felicidad, gran persona, ingeniero Senior, Vio One Piece, nada mas que decir <3",
@@ -93,7 +107,7 @@ const integrants = [
     id: 10,
     name: "Diego Guzman(Odig)",
     password: "Astaaa",
-    messages: [""],
+    messages: totalMessages.Odig,
     profileImage: "img/Odig.png",
     description:
       "Ing. de Sonido, las preguntitas no son una opcion, Ing. de software en proceso, le gusta la Chamba.... no le gusta las therian.. aun, \n Estuvo en argentina, consejero cripto",
@@ -105,33 +119,15 @@ const weekMessages = [
     1,
     "Por esta Vez Camilo y Villa",
     integrants[1].profileImage,
-    "Buenos dias gentita, un nuevo inicio de semana qie sirva de hito para medir el progreso de sus metas y...… recuperar el ánimo y empezar de la mejor forma la semana, no olviden comer y dormir de manera óptima para dar el máximo esfuerzo. ",
+    "Buenos días gentita, que tenga buen inicionde semana, por fortuna corta para jugar dotitas, y sobretodo aprendan a nadar, es una habilidad vital para la supervivencia",
     "Monday",
   ],
-  [
-    2,
-    "David gemio",
-    integrants[4].profileImage,
-    "Buenos dias ,le sirve a Javier Enrique",
-    "Tuesday",
-  ],
-  [
-    3,
-    "Javier Iquize",
-    integrants[7].profileImage,
-    "Buenos días ☀️Que Dios fortalezca tu mente, tu cuerpo y tu espíritu en este nuevo día. Que cada paso que des esté guiado con propósito, que no te falte la fuerza para seguir adelante y que la suerte esté siempre de tu lado. \nHoy es una nueva oportunidad para crecer, mejorar y acercarte a todo lo que quieres lograr. Confía, persiste y avanza… lo mejor aún está por venir. 🙏✨",
-    "Wednesday",
-  ],
-  [
-    4,
-    "Diego Gonzales",
-    integrants[9].profileImage,
-    "No hay saludo",
-    "Thursday",
-  ],
+  [2, "Edgar Loayza", integrants[2].profileImage, "Salude", "Tuesday"],
+  [3, "Ednick", integrants[8].profileImage, "", "Wednesday"],
+  [4, "Diego Irala", integrants[0].profileImage, "", "Thursday"],
   [5, "Javier Exeni", integrants[3].profileImage, " ", "Friday"],
-  [6, "Nicolas Ednick", integrants[8].profileImage, "", "Saturday"],
-  [7, "Daniel Barrios", integrants[6].profileImage, "", "Sunday"],
+  [6, "David Gemio", integrants[4].profileImage, "", "Saturday"],
+  [7, "Javier Iquize", integrants[7].profileImage, "", "Sunday"],
 ];
 
 //NavBar
@@ -272,13 +268,13 @@ setInterval(() => {
 // Participants Order manual code for participants 1 time per Week
 const orderForParticipants = document.querySelector(".participants-order");
 const fromLogAleatory = [
-  [1, "Camilo y Villa", "Monday"],
-  [2, "David Gemio", "Tuesday"],
-  [3, "Javier Iquize", "Wednesday"],
-  [4, "Diego Guzman", "Thursday"],
+  [1, "Camilo Claure", "Monday"],
+  [2, "Edgar Loayza", "Tuesday"],
+  [3, "Nicolas Ednick", "Wednesday"],
+  [4, "Diego Irala", "Thursday"],
   [5, "Javier Exeni", "Friday"],
-  [6, "Nicolas Ednick", "Saturday"],
-  [7, "Daniel Barrios", "Sunday"],
+  [6, "David Gemio", "Saturday"],
+  [7, "Javier Iquize", "Sunday"],
   [8, "ACTUALIZAR LISTA", "NO DAY"],
 ];
 
